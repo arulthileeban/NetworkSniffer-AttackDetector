@@ -1,5 +1,5 @@
 import re
-filename = "normalTrafficTraining.txt"
+filename = "anomalousTrafficTest.txt"
 st = ""
 with open(filename,'r+') as f:
     lines = f.readlines()
@@ -17,5 +17,5 @@ with open(filename,'r+') as f:
                 new_url+=item[0].replace("\r","").replace(" HTTP/1.1","")
             st+=new_url+"\n"
 
-f2 = open("newData.txt","w+")
+f2 = open("newTest.txt","w+")
 f2.write(st)
