@@ -1,0 +1,6 @@
+SQL - "FROM"
+XSS - "SCRIPT"
+LFI/RFI - "file"
+RCE - "([0-9a-zA-Z])"
+Session Fixation - session|meta
+

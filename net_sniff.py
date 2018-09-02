@@ -12,7 +12,7 @@ try:
 	print capture,"\n"
 	#a=["tshark","-r",out_filep,"-T","psml",">",out_filex]
 	#subprocess.call(a)
-	os.system("tshark -r "+out_filep+" -T psml >  "+out_filex)
+	os.system("tshark -r "+out_filep+" -T psml >  "+out_filex+" -Y http")
 except:
 	pass
 print("\nCompleted")
